@@ -80,39 +80,46 @@
         font-size: 13px;
         color: #777;
     }
+    .author {
+    font-size: 11px;
+    color: #999;
+    }
 </style>
 </head>
 
 <body>
 
 <div class="container">
-    <h1>숫자야구 전략 트리</h1>
+    <h1>숫자야구 정보량 기반 질문 추천 트리</h1>
 
     <div class="desc">
-        단기 최적화 기준으로 생성한 숫자야구 전략 시각화 자료입니다.<br>
-        원하는 자리수를 선택하면 결과 버튼을 따라가며 전략 트리를 확인할 수 있습니다.
+        Information Gain(정보량)을 기준으로 생성한 숫자야구 질문 추천 트리입니다.<br>
+        첫 질문을 직접 설정한 뒤, 결과 버튼을 따라가며 다음 추천 질문을 확인할 수 있습니다.
     </div>
 
     <div class="menu">
-        <a class="card" href="3digit.html">
+        <a class="card" href="information_gain_tree_3digit.html">
             <div class="card-title">3자리</div>
             <div class="card-desc">
-                ABC 구조 기반<br>
-                3자리 숫자야구 전략 트리
+                정보량 기반<br>
+                3자리 숫자야구 질문 추천 트리
             </div>
         </a>
 
-        <a class="card" href="4digit.html">
+        <a class="card" href="information_gain_tree_4digit.html">
             <div class="card-title">4자리</div>
             <div class="card-desc">
-                ABCD 구조 기반<br>
-                4자리 숫자야구 전략 트리
+                정보량 기반<br>
+                4자리 숫자야구 질문 추천 트리
             </div>
         </a>
     </div>
 
     <div class="footer">
-        Number Baseball Strategy Tree
+        Information Gain Number Baseball Tree<br>
+        <span class="author">
+            Designed & Developed by Si hyeong Lee
+        </span>
     </div>
 </div>
 
